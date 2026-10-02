@@ -1,6 +1,6 @@
 import random 
 from abc import ABC, abstractmethod
-from src.config.game_config import GameConfig
+from config.game_config import GameConfig
 
 # Clase Abstracta Estrategia
 class Estrategia(ABC):

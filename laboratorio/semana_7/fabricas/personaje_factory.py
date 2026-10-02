@@ -3,7 +3,7 @@ from personajes.personaje import (Guerrero, Dragon, Soldado, Alien)
 # Clase Fabrica de personajes
 class PersonajeFactory:
     @staticmethod
-    def crear_personaje(tipo : str):
+    def crear(tipo : str):
         tipo = tipo.lower()
         
         if tipo == "guerrero":
